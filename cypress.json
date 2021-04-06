@@ -1,0 +1,7 @@
+{"baseUrl": "https://api/spotify.com",
+ "retries": 0,
+ "video": true,
+ "integrationFolder": "cypress/specs"
+
+
+}

@@ -1,0 +1,30 @@
+{
+  "name": "com.sutlac",
+  "version": "1.0.0",
+  "description": "cypress demo",
+  "main": "index.js",
+  "scripts": {
+    "cy:test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "author": "talha",
+  "license": "ISC",
+  "_moduleAliases": {
+    "@api": ".",
+    "@cypress": "./cypress",
+    "@schemas": "./cypress/schemas",
+    "@support": "./cypress/support",
+    "@fixtures": "./cypress/fixtures"
+  },
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "@cypress/schema-tools": "^4.7.4",
+    "@types/node": "^12.19.0",
+    "typescript": "^3.9.7",
+    "module-alias": "^2.2.2",
+    "@shelex/cypress-allure-plugin": "^1.8.2"
+  },
+  "dependencies": {
+    
+  }
+}
